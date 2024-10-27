@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <section class="game">
+        <!--Title -->
+        <h1 class="title">Rock Paper Scissor</h1>
+        <br> <br> <br> <br> 
+        <div class="move">Choose your move</div>
+        
+          <!--Number of moves left before game ends -->
+        <div class="movesleft">Moves Left: 10 </div>
+        
+          <!--Final result of game -->
+          <div class="result"></div>
+
+
+          <!--Options available to player to play game -->
+        <div class="options">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissor">Scissors</button>    
+        </div>
+        
+          <!--Reload the game -->
+        <button class="reload"></button>
+        <br> <br>
+        <!--Statistics-->
+        <h2 class ="stats">Stats</h2>
+        <br>
+        <!--Display Score of player and computer -->
+        <div class="score">  
+          <div class="playerScore">
+              <h4>Player</h4>
+              <p class="p-count count">0</p>
+
+          </div>       
+          <div class="computerScore">
+              <h4>Computer</h4>
+              <p class="c-count count">0</p>
+
+          </div>
+          <div class="tie">
+              <h4>Tie</h4>
+              <p class="t-count count">0</p>
+          </div>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
